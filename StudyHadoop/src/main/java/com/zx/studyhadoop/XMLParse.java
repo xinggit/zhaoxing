@@ -7,13 +7,15 @@ import org.dom4j.Document;
 import org.dom4j.Element;
 import org.dom4j.io.SAXReader;
 
+
+
 public class XMLParse {
 	public static void main(String[] args) throws Exception {
 		InputStream in = Thread.currentThread().getContextClassLoader().getResourceAsStream("student.xml");
 		
 		SAXReader reader = new SAXReader();
 		Document doc = reader.read(in);
-		
+		System.out.println("赵星");
 		print(doc.getRootElement());
 		
 	}

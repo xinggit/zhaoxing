@@ -10,8 +10,8 @@ import org.apache.hadoop.io.IOUtils;
 
 public class CatHadoop {
 	public static void main(String[] args) {
-		URL url = null;
 		URL.setURLStreamHandlerFactory(new FsUrlStreamHandlerFactory());
+		URL url = null;
 //		try {
 //			url = new URL("hdfs://master:9000/data/1.sh");
 //			URLConnection con = url.openConnection();

@@ -26,7 +26,7 @@ public class CatHadoop {
 //			e.printStackTrace();
 //		}
 		try {
-			url = new URL("hdfs://master:9000/data/1.sh");
+			url = new URL("hdfs://master:9000/data/1.sh");//218.196.14.101
 			URLConnection con = url.openConnection();
 //			IOUtils.copyBytes(con.getInputStream(), System.out, 2048, true);
 			IOUtils.copyBytes(con.getInputStream(), System.out, 1024, true);

@@ -23,7 +23,6 @@ public class Map01 extends Mapper<LongWritable, Text, Text, IntWritable> {
 	//value:该行数据
 	@Override
 	protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
-		super.map(key, value, context);
 		
 		String line = value.toString();
 		

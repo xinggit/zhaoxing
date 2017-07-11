@@ -23,7 +23,7 @@ public class JobRun {
 			job.setMapOutputKeyClass(Text.class);// 告诉job执行map输出的key类型
 			job.setMapOutputValueClass(IntWritable.class);// 告诉job执行map输出的value类型
 
-			job.setNumReduceTasks(2);// 设置reduce任务的个数，默认是一
+			job.setNumReduceTasks(1);// 设置reduce任务的个数，默认是一
 
 			//输入数据和输出数据
 			FileInputFormat.addInputPath(job, new Path("/data/cite75_99.txt"));

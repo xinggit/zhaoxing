@@ -16,7 +16,6 @@ public class HDFSDemo01 {
 		try {
 			URI uri = new URI("hdfs://master:9000"); //hadoop分布式文件系统master所在的uri
 			FileSystem fs = FileSystem.get(uri,conf,"hadoop");//根据配置和远程地址创建文件系统
-//			FileSystem fs = FileSystem.newInstance(conf);
 			Path file = new Path("/data/1.sh");
 			InputStream in = fs.open(file);
 			IOUtils.copy(in, System.out, 1024);

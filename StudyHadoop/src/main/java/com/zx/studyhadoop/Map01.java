@@ -14,6 +14,7 @@ import org.apache.hadoop.mapreduce.Mapper;
  *	LongWritable   ---->    long
  *  Text           ---->    String
  *  IntWritable    ---->    int
+ *  Path           ---->	File
  */
 
 public class Map01 extends Mapper<LongWritable, Text, Text, IntWritable> {

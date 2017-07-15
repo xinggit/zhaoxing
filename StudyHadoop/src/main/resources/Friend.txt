@@ -1,0 +1,8 @@
+dog	tom
+tom	yang
+hadoop	hdfs
+yarn	mapreduce
+hadoop	mapreduce
+zhaoxing	zx
+dog	zx
+hadoop	zhaoxing

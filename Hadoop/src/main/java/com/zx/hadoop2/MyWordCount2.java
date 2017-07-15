@@ -16,12 +16,12 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 //1.对map输出的key排序
 //2.合并相同的key，value组成集合，如：hadoop ---> key :hadoop value: (1,1,1) 
 
-public class MyWordCount {
+public class MyWordCount2 {
 
-	public static class MyReduce extends Reducer<Text, IntWritable, Text, IntWritable> {
+	public static class MyReduce extends Reducer<Mytext, IntWritable, Mytext, IntWritable> {
 
 		@Override
-		protected void reduce(Text key, Iterable<IntWritable> value, Context context)
+		protected void reduce(Mytext key, Iterable<IntWritable> value, Context context)
 				throws IOException, InterruptedException {
 			
 			int sum = 0;
@@ -40,7 +40,7 @@ public class MyWordCount {
 	//map输入数据
 	// key 是每一行数据在文件中首字母出现的位置
 	// value 每一行数据
-	public static class MyMapper extends Mapper<LongWritable, Text, Text, IntWritable> {
+	public static class MyMapper extends Mapper<LongWritable, Text, Mytext, IntWritable> {
 
 		@Override
 		protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
@@ -49,7 +49,7 @@ public class MyWordCount {
 
 			for (String string : word) {
 				// 上下文: 全局共享对象所存放的map 简称:上下文
-				context.write(new Text(string), new IntWritable(1));
+				context.write(new Mytext(string), new IntWritable(1));
 			}
 
 		}
@@ -62,20 +62,17 @@ public class MyWordCount {
 
 		try {
 
-			Job job = Job.getInstance(conf, "MyWordCount");// mapreduce 作业对象
+			Job job = Job.getInstance(conf, "MyWordCount2");// mapreduce 作业对象
 
 			job.setMapperClass(MyMapper.class);
-			job.setJarByClass(MyWordCount.class);// 设置作业处理类
+			job.setJarByClass(MyWordCount2.class);// 设置作业处理类
 			job.setReducerClass(MyReduce.class);
 			
 //			job.setNumReduceTasks(2); //合并后文件的个数，默认一个
 			
 			// 注意: 当输入输出数据不一致时，需要指定输入输出数据
-			job.setMapOutputKeyClass(Text.class);
+			job.setMapOutputKeyClass(Mytext.class);
 			job.setMapOutputValueClass(IntWritable.class);
-			
-			job.setOutputKeyClass(IntWritable.class);
-			job.setOutputValueClass(Text.class);
 			
 			
 			FileInputFormat.setInputPaths(job, new Path("hdfs://master:9000/data/1.sh"));// 设置处理数据文件的位置

@@ -59,13 +59,14 @@ public class SequenceFileDemo {
 		try {
 
 			reader = new SequenceFile.Reader(conf, Reader.file(new Path(srcpath)));
+			
 			Writable key = (Writable) ReflectionUtils.newInstance(reader.getKeyClass(), conf);
 			Writable value = (Writable) ReflectionUtils.newInstance(reader.getValueClass(), conf);
 
-			Long position = reader.getPosition();
+//			reader.getPosition();
 			while (reader.next(key, value)) {
 				System.out.println("key = " + key + ", value = " + value);
-				reader.getPosition();
+//				reader.getPosition();
 			}
 
 			IOUtils.closeQuietly(reader);

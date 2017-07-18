@@ -13,6 +13,11 @@ import org.apache.hadoop.io.Writable;
 import org.apache.hadoop.util.ReflectionUtils;
 import org.mortbay.log.Log;
 
+/**
+ * 使用SequenceFile来处理小文件
+ * @author root
+ *
+ */
 public class SequenceFileDemo {
 
 	private static Configuration conf = new Configuration();

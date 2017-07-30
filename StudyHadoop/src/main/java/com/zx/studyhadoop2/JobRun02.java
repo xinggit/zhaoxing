@@ -27,7 +27,7 @@ public class JobRun02 {
 			job.setNumReduceTasks(1);// 设置reduce任务的个数，默认是一
 
 			//输入数据和输出数据
-			FileInputFormat.addInputPath(job, new Path("/data/Friend.txt"));
+			FileInputFormat.addInputPath(job, new Path("/test/univercity.txt"));
 			FileOutputFormat.setOutputPath(job, new Path("/out/qq"));
 			System.exit(job.waitForCompletion(true) ? 0 : 1);
 		} catch (Exception e) {

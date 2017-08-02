@@ -4,7 +4,6 @@ import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.NullWritable;
 import org.apache.hadoop.mapreduce.Job;
-import org.apache.hadoop.mapreduce.lib.db.DBConfiguration;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
@@ -23,7 +22,6 @@ public class JobRun01 {
 	public static void main(String[] args) throws Exception {
 		
 		conf.set("fs.defaultFS", "hdfs://master:9000");
-		DBConfiguration.configureDB(conf, "com.mysql.jdbc.Driver", "jdbc:mysql://localhost:3306/hadooptest", "root", "123456");
 		Job job = Job.getInstance(conf, "job01");
 		job.setJarByClass(JobRun01.class);
 		

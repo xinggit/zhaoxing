@@ -23,6 +23,8 @@ import org.apache.hadoop.hbase.client.Delete;
 import org.apache.hadoop.hbase.client.Get;
 import org.apache.hadoop.hbase.client.Put;
 import org.apache.hadoop.hbase.client.Result;
+import org.apache.hadoop.hbase.client.ResultScanner;
+import org.apache.hadoop.hbase.client.Scan;
 import org.apache.hadoop.hbase.client.Table;
 import org.apache.hadoop.hbase.protobuf.generated.ClientProtos.MutationProto.MutationType;
 import org.apache.hadoop.hbase.util.Bytes;
@@ -223,6 +225,52 @@ public class HBaseUtils {
 			e.printStackTrace();
 		}
 
+	}
+
+	public static Map<String, Map<String, String>> scan(String tableName, String[]... params) throws Exception {
+
+		Table t = con.getTable(TableName.valueOf(tableName));
+		Scan scan = new Scan();
+
+		if (params != null && params.length != 0) {
+
+			for (String[] param : params) {
+				switch (params.length) {
+
+				case 1:
+					scan.addFamily(Bytes.toBytes(param[0]));
+					break;
+				case 2:
+					scan.addColumn(Bytes.toBytes(param[0]), Bytes.toBytes(param[1]));
+					break;
+				default:
+					throw new RuntimeException("参数只能一个或者2个");
+				}
+			}
+
+		}
+
+		ResultScanner rScan = t.getScanner(scan);
+		Map<String, Map<String, String>> results = new HashMap<String, Map<String, String>>();
+
+		for (Result result : rScan) {
+
+			List<Cell> cells = result.listCells();
+			Map<String, String> rs = null;
+			if (cells != null && cells.size() != 0) {
+
+				rs = new HashMap<String, String>();
+
+				for (Cell cell : cells) {
+
+					rs.put(Bytes.toString(CellUtil.cloneFamily(cell)) + ""
+							+ Bytes.toString(CellUtil.cloneQualifier(cell)), Bytes.toString(CellUtil.cloneValue(cell)));
+				}
+				results.put(Bytes.toString(result.getRow()), rs);
+			}
+
+		}
+		return results;
 	}
 
 }

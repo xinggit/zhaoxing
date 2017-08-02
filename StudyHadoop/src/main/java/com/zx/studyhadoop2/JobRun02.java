@@ -23,7 +23,9 @@ public class JobRun02 {
 			job.setReducerClass(Reduce02.class);// 告诉job执行reduce的程序是谁
 			job.setMapOutputKeyClass(Text.class);// 告诉job执行map输出的key类型
 			job.setMapOutputValueClass(Text.class);// 告诉job执行map输出的value类型
-
+			
+			job.setGroupingComparatorClass(MyGroup.class);
+			
 			job.setNumReduceTasks(1);// 设置reduce任务的个数，默认是一
 
 			//输入数据和输出数据

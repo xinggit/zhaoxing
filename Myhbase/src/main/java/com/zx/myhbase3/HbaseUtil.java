@@ -2,11 +2,13 @@ package com.zx.myhbase3;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.hbase.Cell;
+import org.apache.hadoop.hbase.CellUtil;
 import org.apache.hadoop.hbase.HBaseConfiguration;
 import org.apache.hadoop.hbase.HColumnDescriptor;
 import org.apache.hadoop.hbase.HTableDescriptor;
@@ -18,10 +20,19 @@ import org.apache.hadoop.hbase.client.Connection;
 import org.apache.hadoop.hbase.client.ConnectionFactory;
 import org.apache.hadoop.hbase.client.Delete;
 import org.apache.hadoop.hbase.client.Get;
+import org.apache.hadoop.hbase.client.HTable;
 import org.apache.hadoop.hbase.client.Put;
 import org.apache.hadoop.hbase.client.Result;
+import org.apache.hadoop.hbase.client.ResultScanner;
+import org.apache.hadoop.hbase.client.Scan;
 import org.apache.hadoop.hbase.client.Table;
+import org.apache.hadoop.hbase.filter.CompareFilter.CompareOp;
+import org.apache.hadoop.hbase.filter.BinaryComparator;
+import org.apache.hadoop.hbase.filter.ByteArrayComparable;
+import org.apache.hadoop.hbase.filter.Filter;
+import org.apache.hadoop.hbase.filter.ValueFilter;
 import org.apache.hadoop.hbase.util.Bytes;
+import org.junit.Test;
 import org.mortbay.log.Log;
 
 public class HbaseUtil {
@@ -49,6 +60,35 @@ public class HbaseUtil {
 
 	}
 
+	public static void main(String[] args) throws Exception {
+		scan();
+	}
+	
+	@Test
+	public static void scan() throws Exception {
+		
+		HTable table = (HTable) con.getTable(TableName.valueOf("student"));
+		
+		Scan scan = new Scan();
+	
+		Filter filter = new ValueFilter(CompareOp.EQUAL, new BinaryComparator(Bytes.toBytes("90")));
+		scan.setFilter(filter);
+		
+		ResultScanner result = table.getScanner(scan);
+		for (Result result2 : result) {
+			List<Cell> cells = result2.listCells();
+		
+			for (Cell cell : cells) {
+				System.out.println(Bytes.toString(CellUtil.cloneFamily(cell)));
+				System.out.println(Bytes.toString(CellUtil.cloneValue(cell)));
+				System.out.println(Bytes.toString(CellUtil.cloneQualifier(cell)));
+			}
+			
+		}
+		
+		
+	}
+	
 	/**
 	 * 创建表
 	 * 
@@ -77,6 +117,19 @@ public class HbaseUtil {
 
 	}
 
+	@Test
+	public void exists() throws Exception {
+		
+		HTable table = (HTable) con.getTable(TableName.valueOf("student"));
+		
+		Get get = new Get(Bytes.toBytes("row1"));
+		get.addColumn(Bytes.toBytes("chengji"), Bytes.toBytes("china"));
+		
+		if (table.exists(get))
+			System.out.println("存在");
+		
+	}
+	
 	/**
 	 * 删除表中数据
 	 * @param tname 表名

@@ -19,7 +19,6 @@ public class Demo {
 			Class.forName(name);// 指定连接类型
 			conn = DriverManager.getConnection(url, user, password);// 获取连接
 			System.out.println("连接成功");
-			System.out.println("aaa");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

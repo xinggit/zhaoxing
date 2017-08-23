@@ -27,8 +27,5 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="myhive.jar"/>
-	<classpathentry kind="lib" path="mysql-connector-java-5.1.41-bin.jar"/>
-	<classpathentry kind="lib" path="mysql-connector-java-5.1.43-bin.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

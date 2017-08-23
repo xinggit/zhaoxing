@@ -1,0 +1,35 @@
+2017-08-23 09:40:12  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:23)  URL获取成功
+2017-08-23 09:40:13  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:28)  网址解析失败,可能超时
+java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:652)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:629)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:261)
+	at org.jsoup.helper.HttpConnection.get(HttpConnection.java:250)
+	at org.jsoup.Jsoup.parse(Jsoup.java:183)
+	at com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:26)
+2017-08-23 09:40:13  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:30)  网址解析成功
+2017-08-23 09:40:44  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:23)  URL获取成功
+2017-08-23 09:40:46  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:30)  网址解析成功
+2017-08-23 09:41:55  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:23)  URL获取成功
+2017-08-23 09:42:00  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:30)  网址解析成功
+2017-08-23 09:57:18  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:25)  URL获取成功
+2017-08-23 09:57:18  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:28)  网址连接成功
+2017-08-23 09:57:20  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:44)  get请求成功

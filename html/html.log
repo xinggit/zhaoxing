@@ -81,3 +81,270 @@ java.net.UnknownHostException: weibo.com
 2017-08-23 10:50:33  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:26)  URL获取成功
 2017-08-23 10:50:33  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:29)  网址连接成功
 2017-08-23 10:50:34  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:47)  get请求成功
+2017-08-23 11:00:39  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:26)  URL获取成功
+2017-08-23 11:00:39  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:29)  网址连接成功
+2017-08-23 11:00:39  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:47)  get请求成功
+2017-08-23 11:01:16  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:26)  URL获取成功
+2017-08-23 11:01:16  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:29)  网址连接成功
+2017-08-23 11:01:16  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:47)  get请求成功
+2017-08-23 11:17:02  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:31)  URL获取成功
+2017-08-23 11:17:02  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:34)  网址连接成功
+2017-08-23 11:17:03  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:52)  get请求成功
+2017-08-23 11:19:12  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:29)  URL获取成功
+2017-08-23 11:19:13  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:32)  网址连接成功
+2017-08-23 11:19:13  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:50)  get请求成功
+2017-08-23 11:19:37  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:29)  URL获取成功
+2017-08-23 11:19:37  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:32)  网址连接成功
+2017-08-23 11:19:38  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:50)  get请求成功
+2017-08-23 11:20:27  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:29)  URL获取成功
+2017-08-23 11:20:27  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:32)  网址连接成功
+2017-08-23 11:20:29  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:50)  get请求成功
+2017-08-23 11:22:54  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:30)  URL获取成功
+2017-08-23 11:22:54  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:33)  网址连接成功
+2017-08-23 11:22:54  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:51)  get请求成功
+2017-08-23 11:23:02  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:30)  URL获取成功
+2017-08-23 11:23:03  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:33)  网址连接成功
+2017-08-23 11:23:03  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:51)  get请求成功
+2017-08-23 11:26:54  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:31)  URL获取成功
+2017-08-23 11:26:54  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:34)  网址连接成功
+2017-08-23 11:26:54  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:52)  get请求成功
+2017-08-23 11:27:35  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:31)  URL获取成功
+2017-08-23 11:27:35  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:34)  网址连接成功
+2017-08-23 11:27:36  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:52)  get请求成功
+2017-08-23 11:28:06  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:31)  URL获取成功
+2017-08-23 11:28:06  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:34)  网址连接成功
+2017-08-23 11:28:07  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:52)  get请求成功
+2017-08-23 11:29:35  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:31)  URL获取成功
+2017-08-23 11:29:35  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:34)  网址连接成功
+2017-08-23 11:29:36  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:52)  get请求成功
+2017-08-23 11:30:38  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:31)  URL获取成功
+2017-08-23 11:30:38  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:34)  网址连接成功
+2017-08-23 11:30:38  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:52)  get请求成功
+2017-08-23 11:34:00  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:31)  URL获取成功
+2017-08-23 11:34:00  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:34)  网址连接成功
+2017-08-23 11:34:00  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:52)  get请求成功
+2017-08-23 11:34:42  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:31)  URL获取成功
+2017-08-23 11:34:42  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:34)  网址连接成功
+2017-08-23 11:34:42  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:52)  get请求成功
+2017-08-23 11:35:22  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:31)  URL获取成功
+2017-08-23 11:35:23  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:34)  网址连接成功
+2017-08-23 11:35:23  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:52)  get请求成功
+2017-08-23 11:44:57  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:31)  URL获取成功
+2017-08-23 11:44:57  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:34)  网址连接成功
+2017-08-23 11:44:57  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:52)  get请求成功
+2017-08-23 11:45:26  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:31)  URL获取成功
+2017-08-23 11:45:26  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:34)  网址连接成功
+2017-08-23 11:45:26  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:52)  get请求成功
+2017-08-23 11:48:43  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:30)  URL获取成功
+2017-08-23 11:48:43  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:33)  网址连接成功
+2017-08-23 11:48:43  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:49)  get请求成功
+2017-08-23 11:48:49  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:30)  URL获取成功
+2017-08-23 11:48:49  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:33)  网址连接成功
+2017-08-23 11:48:49  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:49)  get请求成功
+2017-08-23 11:49:01  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:30)  URL获取成功
+2017-08-23 11:49:01  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:33)  网址连接成功
+2017-08-23 11:49:01  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:49)  get请求成功
+2017-08-23 11:49:17  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:30)  URL获取成功
+2017-08-23 11:49:17  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:33)  网址连接成功
+2017-08-23 11:49:18  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:49)  get请求成功
+2017-08-23 11:49:27  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:30)  URL获取成功
+2017-08-23 11:49:27  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:33)  网址连接成功
+2017-08-23 11:49:27  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:49)  get请求成功
+2017-08-23 11:50:02  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:30)  URL获取成功
+2017-08-23 11:50:03  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:33)  网址连接成功
+2017-08-23 11:50:03  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:49)  get请求成功
+2017-08-23 11:50:16  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:30)  URL获取成功
+2017-08-23 11:50:16  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:33)  网址连接成功
+2017-08-23 11:50:16  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:49)  get请求成功
+2017-08-23 11:50:40  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:30)  URL获取成功
+2017-08-23 11:50:40  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:33)  网址连接成功
+2017-08-23 11:50:40  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:49)  get请求成功
+2017-08-23 11:50:45  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:30)  URL获取成功
+2017-08-23 11:50:45  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:33)  网址连接成功
+2017-08-23 11:50:46  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:49)  get请求成功
+2017-08-23 11:50:54  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:30)  URL获取成功
+2017-08-23 11:50:54  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:33)  网址连接成功
+2017-08-23 11:50:54  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:49)  get请求成功
+2017-08-23 11:50:58  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:30)  URL获取成功
+2017-08-23 11:50:58  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:33)  网址连接成功
+2017-08-23 11:50:58  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:49)  get请求成功
+2017-08-23 11:51:19  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:30)  URL获取成功
+2017-08-23 11:51:19  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:33)  网址连接成功
+2017-08-23 11:51:19  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:49)  get请求成功
+2017-08-23 11:52:59  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:32)  URL获取成功
+2017-08-23 11:52:59  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:35)  网址连接成功
+2017-08-23 11:52:59  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:49)  get请求成功
+2017-08-23 11:53:49  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:32)  URL获取成功
+2017-08-23 11:53:49  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:35)  网址连接成功
+2017-08-23 11:53:50  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:49)  get请求成功
+2017-08-23 11:54:55  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:32)  URL获取成功
+2017-08-23 11:54:56  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:35)  网址连接成功
+2017-08-23 11:54:56  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:49)  get请求成功
+2017-08-23 11:55:30  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:32)  URL获取成功
+2017-08-23 11:55:30  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:35)  网址连接成功
+2017-08-23 11:55:30  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:49)  get请求成功
+2017-08-23 11:55:42  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:32)  URL获取成功
+2017-08-23 11:55:42  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:35)  网址连接成功
+2017-08-23 11:55:42  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:49)  get请求成功
+2017-08-23 11:55:53  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:32)  URL获取成功
+2017-08-23 11:55:53  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:35)  网址连接成功
+2017-08-23 11:55:54  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:49)  get请求成功
+2017-08-23 11:56:10  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:32)  URL获取成功
+2017-08-23 11:56:10  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:35)  网址连接成功
+2017-08-23 11:56:10  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:49)  get请求成功
+2017-08-23 11:56:24  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:32)  URL获取成功
+2017-08-23 11:56:24  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:35)  网址连接成功
+2017-08-23 11:56:24  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:49)  get请求成功
+2017-08-23 11:58:07  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:28)  URL获取成功
+2017-08-23 11:58:07  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:31)  网址连接成功
+2017-08-23 11:58:07  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:47)  get请求成功
+2017-08-23 12:00:19  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:28)  URL获取成功
+2017-08-23 12:00:19  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:31)  网址连接成功
+2017-08-23 12:00:19  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:47)  get请求成功
+2017-08-23 12:01:30  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:28)  URL获取成功
+2017-08-23 12:01:30  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:31)  网址连接成功
+2017-08-23 12:01:30  com.yc.html.html.SpiderWeibo2.main(SpiderWeibo2.java:47)  get请求成功
+2017-08-24 10:39:43  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:25)  URL获取成功
+2017-08-24 10:39:43  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:28)  网址连接成功
+2017-08-24 10:39:44  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:50)  get请求成功
+2017-08-24 10:39:58  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:25)  URL获取成功
+2017-08-24 10:39:58  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:28)  网址连接成功
+2017-08-24 10:39:59  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:50)  get请求成功
+2017-08-24 10:40:36  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:25)  URL获取成功
+2017-08-24 10:40:36  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:28)  网址连接成功
+2017-08-24 10:40:37  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:49)  get请求成功
+2017-08-24 10:40:44  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:25)  URL获取成功
+2017-08-24 10:40:44  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:28)  网址连接成功
+2017-08-24 10:40:46  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:48)  get请求成功
+2017-08-24 10:42:12  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:25)  URL获取成功
+2017-08-24 10:42:12  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:28)  网址连接成功
+2017-08-24 10:42:14  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:50)  get请求成功
+2017-08-24 10:44:41  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:25)  URL获取成功
+2017-08-24 10:44:41  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:28)  网址连接成功
+2017-08-24 10:44:43  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:50)  get请求成功
+2017-08-24 10:45:06  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:25)  URL获取成功
+2017-08-24 10:45:06  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:28)  网址连接成功
+2017-08-24 10:45:07  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:48)  get请求成功
+2017-08-24 11:16:44  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:25)  URL获取成功
+2017-08-24 11:16:44  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:28)  网址连接成功
+2017-08-24 11:16:45  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:49)  get请求成功
+2017-08-24 11:17:58  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:25)  URL获取成功
+2017-08-24 11:17:58  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:28)  网址连接成功
+2017-08-24 11:17:59  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:47)  get请求失败
+org.jsoup.HttpStatusException: HTTP error fetching URL. Status=405, URL=https://www.ele.me/place/wsb0ujqse46?latitude=26.88021&longitude=112.68484
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:682)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:629)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:261)
+	at org.jsoup.helper.HttpConnection.post(HttpConnection.java:256)
+	at com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:44)
+2017-08-24 11:17:59  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:49)  get请求成功
+2017-08-24 11:19:06  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:25)  URL获取成功
+2017-08-24 11:19:06  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:28)  网址连接成功
+2017-08-24 11:19:10  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:49)  get请求成功
+2017-08-24 11:19:56  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:25)  URL获取成功
+2017-08-24 11:19:56  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:28)  网址连接成功
+2017-08-24 11:20:09  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:25)  URL获取成功
+2017-08-24 11:20:09  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:28)  网址连接成功
+2017-08-24 11:20:20  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:25)  URL获取成功
+2017-08-24 11:20:20  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:28)  网址连接成功
+2017-08-24 11:20:22  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:50)  get请求成功
+2017-08-24 11:26:22  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:25)  URL获取成功
+2017-08-24 11:26:22  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:28)  网址连接成功
+2017-08-24 11:26:24  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:48)  get请求失败
+org.jsoup.UnsupportedMimeTypeException: Unhandled content type. Must be text/*, application/xml, or application/xhtml+xml. Mimetype=application/json; charset=UTF-8, URL=https://translate.googleapis.com/translate_a/t?anno=3&client=te_lib&format=html&v=1.0&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw&logld=vTE_20170814_01&sl=zh-CN&tl=zh-CN&tc=1&tk=909924.769303&mode=1
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:692)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:629)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:261)
+	at org.jsoup.helper.HttpConnection.post(HttpConnection.java:256)
+	at com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:45)
+2017-08-24 11:26:24  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:50)  get请求成功
+2017-08-24 11:26:38  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:25)  URL获取成功
+2017-08-24 11:26:38  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:28)  网址连接成功
+2017-08-24 11:26:39  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:48)  get请求失败
+org.jsoup.UnsupportedMimeTypeException: Unhandled content type. Must be text/*, application/xml, or application/xhtml+xml. Mimetype=application/json; charset=UTF-8, URL=https://translate.googleapis.com/translate_a/t?anno=3&client=te_lib&format=html&v=1.0&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw&logld=vTE_20170814_01&sl=zh-CN&tl=zh-CN&tc=1&tk=909924.769303&mode=1
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:692)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:629)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:261)
+	at org.jsoup.helper.HttpConnection.post(HttpConnection.java:256)
+	at com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:45)
+2017-08-24 11:26:39  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:50)  get请求成功
+2017-08-24 11:28:00  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:25)  URL获取成功
+2017-08-24 11:28:00  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:28)  网址连接成功
+2017-08-24 11:28:04  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:49)  get请求失败
+org.jsoup.UnsupportedMimeTypeException: Unhandled content type. Must be text/*, application/xml, or application/xhtml+xml. Mimetype=application/json; charset=UTF-8, URL=https://translate.googleapis.com/translate_a/t?anno=3&client=te_lib&format=html&v=1.0&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw&logld=vTE_20170814_01&sl=zh-CN&tl=zh-CN&tc=1&tk=909924.769303&mode=1
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:692)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:629)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:261)
+	at org.jsoup.helper.HttpConnection.post(HttpConnection.java:256)
+	at com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:46)
+2017-08-24 11:28:04  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:51)  get请求成功
+2017-08-24 11:29:23  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:25)  URL获取成功
+2017-08-24 11:29:23  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:28)  网址连接成功
+2017-08-24 11:29:24  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:48)  get请求失败
+org.jsoup.UnsupportedMimeTypeException: Unhandled content type. Must be text/*, application/xml, or application/xhtml+xml. Mimetype=application/json; charset=UTF-8, URL=https://translate.googleapis.com/translate_a/t?anno=3&client=te_lib&format=html&v=1.0&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw&logld=vTE_20170814_01&sl=zh-CN&tl=zh-CN&tc=1&tk=909924.769303&mode=1
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:692)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:629)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:261)
+	at org.jsoup.helper.HttpConnection.post(HttpConnection.java:256)
+	at com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:45)
+2017-08-24 11:29:24  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:50)  get请求成功
+2017-08-24 11:30:02  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:25)  URL获取成功
+2017-08-24 11:30:02  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:28)  网址连接成功
+2017-08-24 11:30:03  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:49)  get请求失败
+org.jsoup.UnsupportedMimeTypeException: Unhandled content type. Must be text/*, application/xml, or application/xhtml+xml. Mimetype=application/json; charset=UTF-8, URL=https://translate.googleapis.com/translate_a/t?anno=3&client=te_lib&format=html&v=1.0&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw&logld=vTE_20170814_01&sl=zh-CN&tl=zh-CN&tc=1&tk=909924.769303&mode=1
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:692)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:629)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:261)
+	at org.jsoup.helper.HttpConnection.post(HttpConnection.java:256)
+	at com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:46)
+2017-08-24 11:30:03  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:51)  get请求成功
+2017-08-24 11:30:16  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:25)  URL获取成功
+2017-08-24 11:30:16  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:28)  网址连接成功
+2017-08-24 11:30:18  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:49)  get请求失败
+org.jsoup.UnsupportedMimeTypeException: Unhandled content type. Must be text/*, application/xml, or application/xhtml+xml. Mimetype=application/json; charset=UTF-8, URL=https://translate.googleapis.com/translate_a/t?anno=3&client=te_lib&format=html&v=1.0&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw&logld=vTE_20170814_01&sl=zh-CN&tl=zh-CN&tc=1&tk=909924.769303&mode=1
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:692)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:629)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:261)
+	at org.jsoup.helper.HttpConnection.post(HttpConnection.java:256)
+	at com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:46)
+2017-08-24 11:30:18  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:51)  get请求成功
+2017-08-24 11:31:06  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:25)  URL获取成功
+2017-08-24 11:31:06  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:28)  网址连接成功
+2017-08-24 11:31:07  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:51)  get请求失败
+org.jsoup.UnsupportedMimeTypeException: Unhandled content type. Must be text/*, application/xml, or application/xhtml+xml. Mimetype=application/json; charset=UTF-8, URL=https://translate.googleapis.com/translate_a/t?anno=3&client=te_lib&format=html&v=1.0&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw&logld=vTE_20170814_01&sl=zh-CN&tl=zh-CN&tc=1&tk=909924.769303&mode=1
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:692)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:629)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:261)
+	at org.jsoup.helper.HttpConnection.post(HttpConnection.java:256)
+	at com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:48)
+2017-08-24 11:31:07  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:53)  get请求成功
+2017-08-24 11:31:24  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:25)  URL获取成功
+2017-08-24 11:31:24  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:28)  网址连接成功
+2017-08-24 11:31:26  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:51)  get请求失败
+org.jsoup.UnsupportedMimeTypeException: Unhandled content type. Must be text/*, application/xml, or application/xhtml+xml. Mimetype=application/json; charset=UTF-8, URL=https://translate.googleapis.com/translate_a/t?anno=3&client=te_lib&format=html&v=1.0&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw&logld=vTE_20170814_01&sl=zh-CN&tl=zh-CN&tc=1&tk=909924.769303&mode=1
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:692)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:629)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:261)
+	at org.jsoup.helper.HttpConnection.post(HttpConnection.java:256)
+	at com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:48)
+2017-08-24 11:31:26  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:53)  get请求成功
+2017-08-24 11:31:37  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:25)  URL获取成功
+2017-08-24 11:31:37  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:28)  网址连接成功
+2017-08-24 11:31:38  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:51)  get请求失败
+org.jsoup.UnsupportedMimeTypeException: Unhandled content type. Must be text/*, application/xml, or application/xhtml+xml. Mimetype=application/json; charset=UTF-8, URL=https://translate.googleapis.com/translate_a/t?anno=3&client=te_lib&format=html&v=1.0&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw&logld=vTE_20170814_01&sl=zh-CN&tl=zh-CN&tc=1&tk=909924.769303&mode=1
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:692)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:629)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:261)
+	at org.jsoup.helper.HttpConnection.post(HttpConnection.java:256)
+	at com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:48)
+2017-08-24 11:31:38  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:53)  get请求成功
+2017-08-24 11:31:55  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:25)  URL获取成功
+2017-08-24 11:31:55  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:28)  网址连接成功
+2017-08-24 11:31:57  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:51)  get请求失败
+org.jsoup.UnsupportedMimeTypeException: Unhandled content type. Must be text/*, application/xml, or application/xhtml+xml. Mimetype=application/json; charset=UTF-8, URL=https://translate.googleapis.com/translate_a/t?anno=3&client=te_lib&format=html&v=1.0&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw&logld=vTE_20170814_01&sl=zh-CN&tl=zh-CN&tc=1&tk=909924.769303&mode=1
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:692)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:629)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:261)
+	at org.jsoup.helper.HttpConnection.post(HttpConnection.java:256)
+	at com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:48)
+2017-08-24 11:31:57  com.yc.html.html.SpiderWeibo.main(SpiderWeibo.java:53)  get请求成功

@@ -3,9 +3,12 @@ package com.zx.example;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.NullWritable;
+import org.apache.hadoop.mapred.lib.MultipleOutputFormat;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
+import org.apache.hadoop.mapreduce.lib.input.MultipleInputs;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
+import org.apache.hadoop.mapreduce.lib.output.MultipleOutputs;
 
 /**
  * 数据去重"主要是为了掌握和利用并行化思想来对数据进行有意义的筛选。
@@ -30,11 +33,9 @@ public class JobRun01 {
 		
 		job.setMapOutputKeyClass(DataType.class);
 		job.setMapOutputValueClass(NullWritable.class);
-		
-		
+
 		FileInputFormat.addInputPath(job, new Path("/example/*.txt"));
 		FileOutputFormat.setOutputPath(job, new Path("/out" + System.currentTimeMillis()));
-		
 		System.exit(job.waitForCompletion(true) ? 0 : 1);
 		
 	}
